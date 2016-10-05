@@ -1,0 +1,188 @@
+.navbar-brand  {
+  padding-left: 100px;
+  font-size: 25px;
+
+}
+.navbar-right {
+  margin-right: 80px;
+  font-size: 17px;
+  padding-top: 30px;
+
+}
+.nav .navbar-nav {
+font-family: 'Rokkitt', serif;
+color: #000;
+
+}
+.navbar-header {
+  padding-top: 30px;
+}
+.page-scroll {
+  transition: 0.3s ease;
+  background: #fff;
+  color: #000;
+  font-size: 20px;
+  text-decoration: none;
+  border-top: 4px solid #FFA500;
+  border-bottom: 4px solid #FFA500;
+  padding: 20px 0;
+  margin: 0 20px;
+}
+.page-scroll:hover {
+  border-top: 4px solid #000;
+  border-bottom: 4px solid #000;
+  padding: 6px 0;
+}
+
+#mainNav {
+  height: 100px;
+  background-color: #fff;
+
+}
+
+
+html,
+body {
+    height: 100%;
+}
+header {
+    position: relative;
+    width: 100%;
+    height: 90%;
+    min-height: auto;
+    text-align: center;
+    color: #fff;
+    background-image: url(../img/bg.jpg);
+    opacity: .9;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+header h1  {
+  font-size: 60px;
+  font-family: 'PT Sans Narrow', sans-serif;
+
+}
+header p {
+  font-size: 30px;
+  font-family: 'PT Sans Narrow', sans-serif;
+
+}
+.header-content-inner {
+  padding-top: 280px;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+.featured-project {
+  text-align: center;
+  padding-top: 70px;
+}
+.featured-project h1 {
+  font-size: 40px;
+  font-family: 'Roboto Slab', serif;
+  color: #000;
+}
+.fancy2a {
+  border-width: 0 0 5px;
+  border-style: solid;
+border-image: url('http://www.w3.org/TR/css3-background/border.png') 27 fill stretch;
+}
+.main-laptop img {
+  width:100%;
+  height: 100%;
+  padding-top: 100px;
+  padding-right: 50px;
+}
+.featured-article {
+  text-align: center;
+  font-family: 'Rokkitt', serif;
+  padding-top: 100px;
+}
+.featured-article h1{
+  font-size: 55px;
+  color: #000;
+}
+.featured-article p {
+  font-size: 30px;
+  color: #000;
+}
+.black-background {
+  background-color:#000000;
+}
+.white {
+  color:#ffffff;
+}
+.home-buttons {
+  text-align: center;
+  padding-bottom: 100px;
+}
+.btn-lg {
+    padding: 18px 28px;
+    font-size: 22px; //change this to your desired size
+    line-height: normal;
+    -webkit-border-radius: 8px;
+       -moz-border-radius: 8px;
+            border-radius: 8px;
+}
+.me h3 {
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Roboto Slab', serif;
+  color: #000; 
+}
+hr.style-one {
+  height: 12px;
+ border: 0;
+ box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+}
+
+footer h1 {
+  font-size: 20px;
+}
+footer h2 {
+  font-size: 20px;
+}
+footer h3 {
+  font-size: 20px;
+}
+footer ul li {
+  align-items: center;
+  color: #000;
+}
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover
+{
+     color:#00A0C6;
+     text-decoration:none;
+     cursor:pointer;
+}
+
+
+@media(min-width:1200px) {
+
+}
+@media(max-width:991px) {
+.carousel-caption {
+display: none;
+}
+}
+@media(min-with:768px)  (max-width: 990px) {
+
+}
+@media(max-width:768px) {
+.navbar-brand {
+  position: absolute;
+  padding-left: 30px;
+}
+#home h1 { 
+margin-bottom:40px;
+}
+}
+@media(max-width: 500px)  {
+
+}
