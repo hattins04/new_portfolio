@@ -161,7 +161,15 @@ p {
 #about p {
 	font-size: 20px;
 	color: #000;
-	font-weight: 100;
+}
+#about h1 {
+	font-size: 40px;
+  color: #ecf0f1;
+	text-shadow: 2px 2px black;
+  text-transform: uppercase;
+  font-weight: 300;
+  text-align: center;
+	margin-bottom: 140px;
 }
 .contact h3 {
 	font-size: 40px;
@@ -225,6 +233,7 @@ z-index:-1;
 	 display:block;
 	 margin-left:auto;
 	 margin-right:auto;
+	 margin-bottom: 100px;
 }
 
 
@@ -257,7 +266,6 @@ section{
   text-transform: uppercase;
   font-weight: 300;
   text-align: center;
-	margin: 155px 0 85px;
 }
 .fun-projects h3 {
 	font-size: 30px;
@@ -305,6 +313,7 @@ section{
 background-color:#fff;
 padding:0px;
 box-shadow: 5px 5px #333;
+
 }
 
 .pong-box-inner {
@@ -315,7 +324,7 @@ box-shadow: 5px 5px #333;
 	font-size:25px;
 	padding:10px;
 	width:100%;
-	background-color:rgb(210, 50, 98);
+	background-color: #ff6600;
 	color:#fff;
 }
 
@@ -324,18 +333,19 @@ box-shadow: 5px 5px #333;
 	display:inline-block;
 }
 .pong-button {
-	background-color:rgb(210, 50, 98);
+	background-color: #ff6600;
 	color:#fff;
 	transition:all .2s;
-	border:2px solid rgb(210, 50, 98);
+	border:2px solid #ff6600;
 	padding:10px 20px;
 	font-size:18px;
 	margin-top:25px;
 	margin-bottom:20px;
+	width: 100%;
 }
 .pong-button:hover {
 	background-color:transparent;
-	color:rgb(210, 50, 98);
+	color:#ff6600;
 	text-decoration:none;
 }
 
@@ -409,7 +419,162 @@ box-shadow: 5px 5px #333;
 #clock {
 padding-left: 220px;
 	font-size: 35px;
-	color: #3498db;
+	color: #ff6600;
+}
+
+/* ---------------------------------------------- /*
+ * PROGRESS TIMELINE
+/* ---------------------------------------------- */
+.large-container {
+    position: relative;
+    width: 90%;
+    max-width: 1400px;
+    text-align: left;
+    padding: 0;
+    margin: 0 auto;
+}
+.grid-container {
+    position: relative;
+    width: 40%;
+    max-width: 800px;
+    text-align: left;
+    padding: 0 1%;
+    margin: 0 auto;
+		background-color: #ecf0f1;
+		border-radius: 5px;
+
+}
+.grid-container p {
+	color: #333;
+}
+.grid-container .btn {
+	display: block;
+	margin: 0 auto;
+	color: #fff;
+	background-color: #05C20D;
+}
+.grid-container .btn:hover {
+background-color: #fff;
+color: #05C20D;
+text-decoration: none;
+}
+
+.grid-container img {
+	display: block;
+	margin: 0 auto;
+	padding-top: 15px;
+}
+.line img {
+	display: block;
+	margin: 0 auto;
+	padding: 20px 0 20px;
+}
+.big-container {
+    position: relative;
+    width: 80%;
+    padding: 50px 0;
+    margin: 0 auto;
+		background-color: #05C20D;
+}
+.big-container h1 {
+	padding-left: 20px;
+	font-size: 45px;
+	font-weight: 500px;
+	text-align: center;
+}
+.big-container hr {
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+		width: 20%;
+		margin-bottom: 80px;
+}
+#websites h2 {
+	text-align: center;
+	color: #333;
+	font-size: 40px;
+}
+#websites h3 {
+	text-align: center;
+	color: #333;
+	font-size: 35px;
+}
+#websites p {
+	text-align: center;
+	font-size: 25px;
+}
+#websites  img {
+	margin: 0 auto;
+}
+
+#mytimeline {
+    padding-top: 125px;
+    margin-top: 0;
+}
+
+#total {
+    color: #fff;
+    margin-top: -125px;
+    margin-bottom: 150px;
+}
+ .book {
+	max-width: 110px;
+	max-height: 110px;
+}
+
+.timeline {
+    background-color: #ececee;
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.timeline .row .col {
+    text-align: center;
+    padding: 0;
+}
+
+.timeline h5 {
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 25px;
+}
+
+.timeline p {
+    font-size: 1.33em;
+}
+
+.course-list {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-size: .85em;
+    background-color: #bbb;
+    border-radius: 8px;
+    padding: 1px 15px;
+    margin-bottom: 20px;
+    transition: .25s;
+}
+
+.course-list:hover {
+    background-color: #6F749E;
+}
+
+.hr {
+    width: 20%;
+    border: none;
+    border-bottom: 3px solid #CFD78A;
+    margin: 25px auto;
+}
+
+.checked {
+    width: 8%;
+    margin: 0 auto;
+}
+
+.number {
+    color: #2ecc71;
+    font-size: 2.33em;
+    font-weight: bold;
 }
 
 /* ---------------------------------------------- /*
@@ -418,12 +583,11 @@ padding-left: 220px;
 
 .client h1 {
 	font-size: 40px;
-  color: #F1375C;
+  color: #ecf0f1;
 	text-shadow: 2px 2px black;
   text-transform: uppercase;
   font-weight: 300;
   text-align: center;
-	margin:95px 0 85px 0;
 }
 .client h2 {
 	font-size: 30px;
@@ -445,6 +609,10 @@ padding-left: 220px;
 }
 .client img:hover {
 	opacity: 0.8;
+}
+#client-work hr {
+	width: 100%;
+	color: #fff;
 }
 
 .udps {
@@ -495,6 +663,11 @@ padding-left: 220px;
 		font-size: 15px;
 		color: #3498db;
 	}
+	.grid-container {
+	    position: relative;
+	    width: 100%;
+	    max-width: 400px;
+	}
 }
 @media (min-width:481px) { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
 	.client img {
@@ -538,6 +711,11 @@ padding-left: 220px;
 		font-size: 15px;
 		color: #3498db;
 	}
+	.grid-container {
+	    position: relative;
+	    width: 100%;
+	    max-width: 500px;
+	}
 }
 @media (min-width:641px) { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
 	.client img {
@@ -565,6 +743,11 @@ padding-left: 220px;
 		font-size: 25px;
 		color: #3498db;
 	}
+	.grid-container {
+	    position: relative;
+	    width: 100%;
+	    max-width: 700px;
+	}
 }
 @media (min-width:961px) { /* tablet, landscape iPad, lo-res laptops ands desktops */
 	.lang {
@@ -574,6 +757,14 @@ padding-left: 220px;
 	}
 	.tbl-header th {
 		font-size: 12px;
+	}
+}
+@media (max-width:961px) {
+
+	.grid-container {
+	    position: relative;
+	    width: 90%;
+	    max-width: 1000px;
 	}
 }
 @media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */
@@ -611,6 +802,11 @@ padding-left: 220px;
 	padding-left: 220px;
 		font-size: 25px;
 		color: #3498db;
+	}
+	/* PONG BOX */
+	.pong-box-inner {
+	width: 100%;
+
 	}
 }
 
